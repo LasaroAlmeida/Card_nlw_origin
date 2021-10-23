@@ -55,7 +55,7 @@ h1 {
     margin-top: 1.4rem;
 }
 
-#contact {
+#user_contact {
     display: flex;
     margin-top: 0.3rem;
     text-decoration: none;
@@ -63,13 +63,14 @@ h1 {
     gap: 0.4rem;
     justify-content: center;
     align-items: center;
+    font-size: 0.8rem;
 }
 
-#contact img {
+#user_contact img {
     margin-right: 5px;
 }
 
-#contact:hover {
+#user_contact:hover {
     color: hsl(240, 9%, 50%);
 }
 

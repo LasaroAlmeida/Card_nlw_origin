@@ -21,15 +21,14 @@ function change_social_medias_links() {
 function get_github_profile_infos() {
   const url = `https://api.github.com/users/${social_medias.github}`;
   fetch(url)
-  .then((response) => response.json())
-  .then((data) => {
-    user_avatar.src = data["avatar_url"];
-    user_name.textContent = data["name"];
-    user_login.textContent = data["login"];
-    user_bio.textContent = data["bio"];
-    user_contact.href = data["html_url"];
-  });
-  
+    .then((response) => response.json())
+    .then((data) => {
+      user_avatar.src = data["avatar_url"];
+      user_name.textContent = data["name"];
+      user_login.textContent = data["login"];
+      user_bio.textContent = data["bio"];
+      user_contact.href = data["html_url"];
+    });
 }
 
 change_social_medias_links();

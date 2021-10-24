@@ -1,8 +1,3 @@
-/**
- * Lásaro de Almeida Deodoro
- * 22/10/2021
- * <NLW/> Heat
- */
 const social_medias = {
   github: "Lazlo-coder",
   youtube: "channel/UCnqJa033dFAqd3pvMkZizyg",
